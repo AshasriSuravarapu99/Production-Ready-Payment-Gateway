@@ -8,7 +8,7 @@ This implementation strictly follows the provided project specification (PDF).
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Payments
 - Asynchronous payment processing using **BullMQ + Redis**
@@ -40,7 +40,7 @@ This implementation strictly follows the provided project specification (PDF).
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Backend:** Node.js, Express
 - **Database:** PostgreSQL 15
@@ -51,7 +51,7 @@ This implementation strictly follows the provided project specification (PDF).
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 backend/
@@ -79,7 +79,7 @@ README.md
 
 ---
 
-## 🔑 API Endpoints
+##  API Endpoints
 
 ### Create Payment
 ```
@@ -148,7 +148,7 @@ POST /api/v1/webhooks/{webhook_id}/retry
 
 ---
 
-## 🔔 Webhook Security
+##  Webhook Security
 
 - All webhooks are signed using **HMAC SHA-256**
 - Signature sent via header:
@@ -159,7 +159,7 @@ X-Signature: <signature>
 
 ---
 
-## 💳 Checkout SDK Usage
+##  Checkout SDK Usage
 
 Include SDK:
 ```html
@@ -184,7 +184,7 @@ PaymentGateway.open({
 
 ---
 
-## 📊 Dashboard
+##  Dashboard
 
 Webhook dashboard available at:
 ```
@@ -198,7 +198,7 @@ Displays:
 
 ---
 
-## 🐳 Running Locally
+##  Running Locally
 
 ### Prerequisites
 - Docker Desktop
@@ -224,7 +224,7 @@ Expected response:
 
 ---
 
-## 🧪 Verification Summary
+##  Verification Summary
 
 - Asynchronous payment processing verified
 - Idempotency verified (no duplicate payments)
@@ -237,7 +237,7 @@ Expected response:
 
 ---
 
-## 🔐 Security & Best Practices
+##  Security & Best Practices
 
 - `node_modules/` excluded from version control
 - `.env` files excluded from version control
@@ -246,7 +246,7 @@ Expected response:
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project demonstrates a **real-world payment gateway architecture** with:
 - Reliability through async processing
@@ -257,4 +257,4 @@ This project demonstrates a **real-world payment gateway architecture** with:
 Implemented fully in compliance with the given project specification.
 
 ## Author
-Krishna Tulasi Satti
+Ashasri Suravarapu
